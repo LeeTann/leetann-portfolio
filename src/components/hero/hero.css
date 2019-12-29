@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.landing {
+    position: relative;
+    background-image: url('./george-alexandru-novac-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.dark-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,0.7);
+}
+
+.landing-inner {
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-heading {
+    font-size: 4rem;
+    position: relative;
+    animation: hero;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes hero {
+    0% {top: -400px}
+    100% {top: 0}
+}
+
+.hero-sub {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    width: 60%;
+    position: relative;
+    animation: hero-sub;
+    animation-duration: 2s;
+    animation-fill-mode: forwards
+}
+@keyframes hero-sub {
+    0% {left: -1500px}
+    100% {left: 0}
+}
+
+.border {
+    color: var(--accent-color);
+    font-size: 1.5rem;
+}

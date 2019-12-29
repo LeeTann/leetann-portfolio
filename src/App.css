@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: 'Black Ops One', cursive;
+}
+
+body {
+  font-size: 1rem;
+}
+
+p {
+  line-height: 1.25;
+  letter-spacing: 1.25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 0.4rem 1.3rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  outline: none;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 800px) {
+  .main-body {
+    margin-left: 5rem;
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: .8rem;
+  }
+}
