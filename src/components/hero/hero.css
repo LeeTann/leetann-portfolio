@@ -56,14 +56,10 @@
     position: relative;
     animation: hero-sub;
     animation-duration: 2s;
-    animation-fill-mode: forwards
+    animation-fill-mode: forwards;
+    color: var(--secondary-color);
 }
 @keyframes hero-sub {
     0% {left: -1500px}
     100% {left: 0}
-}
-
-.border {
-    color: var(--accent-color);
-    font-size: 1.5rem;
 }

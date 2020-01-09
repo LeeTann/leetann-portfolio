@@ -9,11 +9,7 @@ export default function Hero() {
                 <div className="dark-overlay">
                     <div className="landing-inner">
                         <h1 className="hero-heading">Lee Tann</h1>
-                        <p className="border">----------------------------</p>
-                        <h2 className="hero-sub">Full-Stack Developer</h2>
-                        <p className="border">----------------------------</p>
-                        <h4 className="hero-sub-sub">React, Node, Express, Postgres</h4>
-                        
+                        <h2 className="hero-sub">Full-Stack Developer</h2>         
                     </div>
                 </div>
             </section>
