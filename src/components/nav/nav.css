@@ -33,6 +33,11 @@ li {
     margin: 0 20px;
     font-size: 24px;
 }
-a {
+
+.nav-item {
     color: whitesmoke;
+}
+.nav-item :hover {
+    color: black;
+    transition: ease-in-out .25s;
 }
