@@ -48,3 +48,9 @@
 .btn {
     color: white;
 }
+
+@media (max-width: 400px) {
+    .cards-container {
+        text-align: center;
+    }
+}
