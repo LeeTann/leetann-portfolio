@@ -63,3 +63,9 @@
     0% {left: -1500px}
     100% {left: 0}
 }
+
+@media (max-width: 400px) {
+    .hero-heading {
+        font-size: 2.75rem;
+    }
+}

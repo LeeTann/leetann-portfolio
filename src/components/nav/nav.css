@@ -12,14 +12,6 @@ nav {
     background-color: var(--primary-color);
 }
 
-.nav-icon {
-    font-size: 2rem;
-    display: flex;
-    background-color: var(--primary-color);
-    border: none;
-
-}
-
 img {
     width: 50px;
     height: 50px;
@@ -52,24 +44,32 @@ li {
 
 @media (max-width: 900px) {
     li {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .logo1 {
         display: none;
     }
     .logo2 {
         display: none;
     }
+    li {
+        margin: 5px 10px;
+    }
     nav {
         padding: 20px;
     }
 }
 
-@media (min-width: 500px) {
-    .nav-icon {
-        display: none;
+@media (max-width: 400px) {
+    li {
+        font-size: 16px;
+        margin: 4px 7px;
+    }
+    nav {
+        margin: 0 auto;
+        justify-content: space-evenly;
     }
 }
