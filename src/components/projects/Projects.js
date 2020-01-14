@@ -13,8 +13,12 @@ export default function Projects() {
                         providing a simplified schedule for booking and maintaining appointments.
                     </p>
                     <div className="btn-container">
-                        <button className="btn">Github</button>
-                        <button className="btn">View Live</button>
+                        <a href="https://github.com/pt3-labs-contractor" target="_blank">
+                            <button className="btn">Github</button>
+                        </a>
+                        <a href="https://affectionate-almeida-c22cb1.netlify.com/" target="_blank">
+                            <button className="btn">View Live</button>
+                        </a>
                     </div>
                 </div>
                 <div className="card">

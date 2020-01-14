@@ -28,7 +28,7 @@
 .fa-linkedin :hover {
     color: whitesmoke;
     background-color:#0271ae;
-    transition: ease-in-out .4s;
+    transition: ease-in-out .2s;
     border-radius: 5px;
 }
 
@@ -39,7 +39,7 @@
 .fa-github :hover {
     color: whitesmoke;
     background-color:#000000;
-    transition: ease-in-out .4s;
+    transition: ease-in-out .2s;
     border-radius: 5px;
 }
 
@@ -49,7 +49,7 @@
 .fa-twitter :hover {
     color: whitesmoke;
     background-color:#55ACEE;
-    transition: ease-in-out .4s;
+    transition: ease-in-out .2s;
     border-radius: 5px;
 }
 
