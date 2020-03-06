@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaLinkedin, FaGithubSquare, FaTwitterSquare} from 'react-icons/fa'
-import RubberBand from 'react-reveal/RubberBand'
+import Zoom from 'react-reveal/Zoom'
 import './contact.css'
 
 export default function Contact() {
@@ -9,7 +9,7 @@ export default function Contact() {
             <h3 className="header">Contact</h3>
             <div className="contact-container">
                 <p>Connect with me through social media</p>
-                <RubberBand>
+                <Zoom>
                     <div className="social-media">         
                         <a href="https://www.linkedin.com/in/lee-tann-9a3769199/" target="_blank" className="fa-linkedin">
                             <FaLinkedin />
@@ -21,7 +21,7 @@ export default function Contact() {
                             <FaTwitterSquare />
                         </a>         
                     </div>
-                </RubberBand>
+                </Zoom>
                 <p className="contact-me">Contact me through email</p>
                 <a href="mailto:leeroyleeroy18@gmail.com" target="_blank">
                     <button className="btn contact-btn">Email Me</button>
