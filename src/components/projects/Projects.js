@@ -27,10 +27,10 @@ export default function Projects() {
                         </div>
                         </Fragment>
                         <div className="btn-container">
-                            <a href="https://github.com/pt3-labs-contractor" target="_blank">
+                            <a href="https://github.com/pt3-labs-contractor" target="_blank" rel="noopener noreferrer">
                                 <button className="btn">Github</button>
                             </a>
-                            <a href="https://affectionate-almeida-c22cb1.netlify.com/" target="_blank">
+                            <a href="https://affectionate-almeida-c22cb1.netlify.com/" target="_blank" rel="noopener noreferrer">
                                 <button className="btn">View Live</button>
                             </a>
                         </div>
@@ -57,7 +57,9 @@ export default function Projects() {
                         </div>
                         </Fragment>
                         <div className="btn-container">
-                            <button href="https://github.com/LeeTann/socialApe-Frontend" className="btn">Github</button>
+                            <a href="https://github.com/LeeTann/socialApe-Frontend" rel="noopener noreferrer" >
+                                <button className="btn">Github</button>
+                            </a>                  
                             <button className="btn">View Live</button>
                         </div>
                     </div>
@@ -65,10 +67,10 @@ export default function Projects() {
 
                 <Fade right>
                     <div className="card">
-                        <img src="images/inquiry.png" alt="card img" className="card-img" />
-                        <h1>Future Project</h1>
-                        <p>Inquiry is an applicaiton that aims at easing the stress of finding and booking an independent contractor by
-                            providing a simplified schedule for booking and maintaining appointments.
+                        <img src="images/gameoflife1.png" alt="card img" className="card-img" />
+                        <h1>Game of Life</h1>
+                        <p>Game of Life is a cellular automaton developed by John Horton Conway. The game is a zero-player game meaning 
+                            that it's evolution is determined by it's initial state requiring no furture input.
                         </p>
                         <div className="card-info">
                             <p>
@@ -77,12 +79,16 @@ export default function Projects() {
                         </div>
                         <div className="card-info">
                             <p>
-                                <span className="bold">Tech:</span> React, Redux, Material-UI, Node, Express, Firebase
+                                <span className="bold">Tech:</span> React, Hooks, CSS
                             </p>
                         </div>  
-                        <div className="btn-container">
-                            <button className="btn">Github</button>
-                            <button className="btn">View Live</button>
+                        <div className="btn-container gameoflife-btn">
+                            <a href="https://github.com/LeeTann/Game0fLife" target="_blank" rel="noopener noreferrer">
+                                <button className="btn">Github</button>
+                            </a>
+                            <a href="https://gameoflife-react-hooks.netlify.com" target="_blank" rel="noopener noreferrer">
+                                <button className="btn">View Live</button>
+                            </a>
                         </div>
                     </div>
                 </Fade>
