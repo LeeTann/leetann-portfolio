@@ -5,7 +5,7 @@
 
 .about-container {
     max-width: 1200px;
-    margin: 0 10%;
+    margin: 0 auto;
 }
 
 .quote {
@@ -42,6 +42,7 @@
 .portfolio-pic {
     width: 80%;
     height: auto;
+    margin-left: 10%;
 }
 
 @media (max-width: 1000px) {

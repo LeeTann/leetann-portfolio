@@ -41,6 +41,10 @@
     margin: 2.5%;
 }
 
+.card-details {
+  text-align: left;
+}
+
 .card-info {
     text-align: left;
 }
