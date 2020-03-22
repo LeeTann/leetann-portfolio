@@ -8,14 +8,14 @@ export default function About() {
         <div className="about">
             <h3>About</h3>
             <div className="about-container">
-                <Zoom>
+                <Zoom duration="1200">
                     <p className="quote">"<span className="quote-style">Learning to program is a valuable skill on its own. 
                         On another level, by learning to program and understanding the fundamentals of computer science, 
                         you are receiving the preeminent transferable skill: how to solve any complex problem.</span>" - Lambda School
                     </p>
                 </Zoom>
                 <div className="about-section">
-                    <Fade left>
+                    <Fade left duration="1200">
                         <div className="about-me">
                             <p>Hi my name is Lee. I'm a full-stack developer based in California. I enjoy building
                                 beautiful and functional apps with a focus on user experience and design. I love working with 
@@ -32,7 +32,7 @@ export default function About() {
                             </p>
                         </div>
                     </Fade>
-                    <Fade right>
+                    <Fade right duration="1200">
                         <div className="pic-container">
                             <img src="images/me7.JPG" alt="porfolio pic" className="portfolio-pic" />
                         </div>

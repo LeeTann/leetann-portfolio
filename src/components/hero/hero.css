@@ -135,6 +135,7 @@ h5 span:nth-child(12) {
   animation: button 1s linear forwards;
   animation-delay: 6.5s;
   opacity: 0;
+  cursor: pointer;
 }
 
 @keyframes button {
@@ -144,6 +145,10 @@ h5 span:nth-child(12) {
   100% {
     opacity: 1;
   }
+}
+
+.start-btn:hover {
+  color: var(--secondary-color);
 }
 
 @media (max-width: 400px) {
