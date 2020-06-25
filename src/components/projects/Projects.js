@@ -8,6 +8,34 @@ export default function Projects() {
             <h3>Projects</h3>
             <div className="cards-container">
                 <Fade left>
+                    <div className="card">   
+                        <img src="images/notesapp1.png" alt="card img" className="card-img" />
+                        <h1>Social Ape</h1>
+                        <p className="card-details">Scratch is a serverless full-stack note taking app utilizing AWS.
+                        </p>
+                        <div className="card-info">
+                            <p>
+                                <span className="bold">Developed:</span> Solo Project
+                            </p>
+                        </div>
+                        <div className="card-info">
+                            <p>
+                                <span className="bold">Tech:</span> React, Node, AWS Amplify, S3, DynamoDB, Lambda, API Gateway, Cognito, Serverless Framework, Bootstrap 
+                            </p>
+                        </div>
+                        
+                        <div className="btn-container">
+                            <a href="https://github.com/LeeTann/serverless-stack-api" rel="noopener noreferrer" >
+                                <button className="btn">Github</button>
+                            </a>
+                            <a href="https://master.d1i51n1hkibvnd.amplifyapp.com/" target="_blank" rel="noopener noreferrer">               
+                              <button className="btn">View Live</button>
+                            </a>
+                        </div>
+                    </div>
+                </Fade>
+
+                <Fade left>
                     <div className="card">
                         <img src="images/inquiry.png" alt="card img" className="card-img" />
                         <h1>Inquiry</h1>                 

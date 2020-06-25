@@ -70,4 +70,7 @@
     .cards-container {
         text-align: center;
     }
+    .gameoflife-btn {
+      margin-top: 0px
+  }
 }
