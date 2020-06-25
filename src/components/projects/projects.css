@@ -23,6 +23,7 @@
     background-color: rgb(250, 237, 237);
     height: 33rem;
     box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.4);
+    margin-bottom: 20px;
 }
 
 .card-img {

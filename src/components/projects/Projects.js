@@ -10,8 +10,9 @@ export default function Projects() {
                 <Fade left>
                     <div className="card">   
                         <img src="images/notesapp1.png" alt="card img" className="card-img" />
-                        <h1>Social Ape</h1>
-                        <p className="card-details">Scratch is a serverless full-stack note taking app utilizing AWS.
+                        <h1>Scratch</h1>
+                        <p className="card-details">Scratch is a serverless note taking app utilizing Amazon Web Services. 
+                          The application was built as a way to take notes while studying for the AWS Solutions Architect Exam.
                         </p>
                         <div className="card-info">
                             <p>
@@ -35,7 +36,7 @@ export default function Projects() {
                     </div>
                 </Fade>
 
-                <Fade left>
+                <Fade top>
                     <div className="card">
                         <img src="images/inquiry.png" alt="card img" className="card-img" />
                         <h1>Inquiry</h1>                 
@@ -64,7 +65,63 @@ export default function Projects() {
                     </div>
                 </Fade>
 
+                <Fade right>
+                    <div className="card">   
+                        <img src="images/covid19.png" alt="card img" className="card-img" />
+                        <h1>Covid-19 Tracker</h1>
+                        <p className="card-details">An application that tracks real time data of Covid-19 around the world utilizing a third party api. 
+                        </p>
+                        <div className="card-info">
+                            <p>
+                                <span className="bold">Developed:</span> Solo Project
+                            </p>
+                        </div>
+                        <div className="card-info">
+                            <p>
+                                <span className="bold">Tech:</span> React, Hooks, Chartjs, MaterialUI
+                            </p>
+                        </div>
+                        
+                        <div className="btn-container">
+                            <a href="https://github.com/LeeTann/Covid-19" rel="noopener noreferrer" >
+                                <button className="btn">Github</button>
+                            </a>
+                            <a href="https://covid19-tracker-leetann.netlify.app/" target="_blank" rel="noopener noreferrer">               
+                              <button className="btn">View Live</button>
+                            </a>
+                        </div>
+                    </div>
+                </Fade>
+
                 <Fade top>
+                    <div className="card">   
+                        <img src="images/expense-tracker.png" alt="card img" className="card-img" />
+                        <h1>Expense Tracker</h1>
+                        <p className="card-details">An application that allows you to keep track of your expenses. 
+                        </p>
+                        <div className="card-info">
+                            <p>
+                                <span className="bold">Developed:</span> Solo Project
+                            </p>
+                        </div>
+                        <div className="card-info">
+                            <p>
+                                <span className="bold">Tech:</span> React, Hooks, Chartjs, MaterialUI
+                            </p>
+                        </div>
+                        
+                        <div className="btn-container">
+                            <a href="https://github.com/LeeTann/Expense-Tracker-React-Node" rel="noopener noreferrer" >
+                                <button className="btn">Github</button>
+                            </a>
+                            <a href="https://expensetracker-mern.herokuapp.com/" target="_blank" rel="noopener noreferrer">               
+                              <button className="btn">View Live</button>
+                            </a>
+                        </div>
+                    </div>
+                </Fade>
+
+                <Fade right>
                     <div className="card">
                      
                         <img src="images/socialape1.png" alt="card img" className="card-img" />
@@ -92,7 +149,7 @@ export default function Projects() {
                     </div>
                 </Fade>
 
-                <Fade right>
+                <Fade left>
                     <div className="card">
                         <img src="images/gameoflife1.png" alt="card img" className="card-img" />
                         <h1>Game of Life</h1>
