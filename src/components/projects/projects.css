@@ -21,9 +21,10 @@
     display: flex;
     flex-direction: column;
     background-color: rgb(250, 237, 237);
-    height: 33rem;
+    height: 35rem;
     box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.4);
     margin-bottom: 20px;
+    position: relative;
 }
 
 .card-img {
@@ -55,8 +56,11 @@
 }
 
 .btn-container {
-    margin-bottom: 10px;
-    text-align: center;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translate(-50%, -50%);
+  display: flex;
 }
 
 .btn {
