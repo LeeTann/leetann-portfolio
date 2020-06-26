@@ -11,18 +11,20 @@ export default function Projects() {
                     <div className="card">   
                         <img src="images/notesapp1.png" alt="card img" className="card-img" />
                         <h1>Scratch</h1>
-                        <p className="card-details">Scratch is a serverless note taking app utilizing Amazon Web Services. 
-                          The application was built as a way to take notes while studying for the AWS Solutions Architect Exam.
-                        </p>
-                        <div className="card-info">
-                            <p>
-                                <span className="bold">Developed:</span> Solo Project
-                            </p>
-                        </div>
-                        <div className="card-info">
-                            <p>
-                                <span className="bold">Tech:</span> React, Node, AWS Amplify, S3, DynamoDB, Lambda, API Gateway, Cognito, Serverless Framework, Bootstrap 
-                            </p>
+                        <div className="card-content">
+                          <p className="card-details">Scratch is a full-stack serverless note taking app utilizing Amazon Web Services. 
+                            The application was built as a way to take notes while studying for the AWS Solutions Architect Exam.
+                          </p>
+                          <div className="card-info">
+                              <p>
+                                  <span className="bold">Developed:</span> Solo Project
+                              </p>
+                          </div>
+                          <div className="card-info">
+                              <p>
+                                  <span className="bold">Tech:</span> React, Node, AWS Amplify, S3, DynamoDB, Lambda, API Gateway, Cognito, Serverless Framework
+                              </p>
+                          </div>
                         </div>
                         
                         <div className="btn-container">
@@ -39,21 +41,22 @@ export default function Projects() {
                 <Fade top>
                     <div className="card">
                         <img src="images/inquiry.png" alt="card img" className="card-img" />
-                        <h1>Inquiry</h1>                 
-                        <p className="card-details">Inquiry is an app that aims at easing the stress of finding and booking an independent contractor by
-                            providing a simplified schedule for booking and maintaining appointments.
-                        </p>                  
-                        <div className="card-info">
-                            <p>
-                                <span className="bold">Developed:</span> Team capstone project
-                            </p>
-                        </div>
-                        <div>
-                            <p className="card-info">
-                                <span className="bold">Tech:</span> React, Redux, Custom CSS, Node, Express, Postgres
-                            </p>
-                        </div>
-                
+                        <h1>Inquiry</h1>
+                        <div className="card-content">
+                          <p className="card-details">Inquiry is an app that aims at easing the stress of finding and booking an independent contractor by
+                              providing a simplified schedule for booking and maintaining appointments.
+                          </p>                  
+                          <div className="card-info">
+                              <p>
+                                  <span className="bold">Developed:</span> Team capstone project
+                              </p>
+                          </div>
+                          <div>
+                              <p className="card-info">
+                                  <span className="bold">Tech:</span> React, Redux, Custom CSS, Node, Express, Postgres, HTML5, Heroku, Netlify
+                              </p>
+                          </div>
+                          </div>                 
                         <div className="btn-container">
                             <a href="https://github.com/pt3-labs-contractor" target="_blank" rel="noopener noreferrer">
                                 <button className="btn">Github</button>
@@ -69,6 +72,7 @@ export default function Projects() {
                     <div className="card">   
                         <img src="images/covid19.png" alt="card img" className="card-img" />
                         <h1>Covid-19 Tracker</h1>
+                        <div className="card-content">
                         <p className="card-details">An application that tracks real time data of Covid-19 around the world utilizing a third party api. 
                         </p>
                         <div className="card-info">
@@ -78,10 +82,10 @@ export default function Projects() {
                         </div>
                         <div className="card-info">
                             <p>
-                                <span className="bold">Tech:</span> React, Hooks, Chartjs, MaterialUI
+                                <span className="bold">Tech:</span> React, Hooks, Chartjs, MaterialUI, HTML5, CSS, Netlify
                             </p>
                         </div>
-                        
+                        </div>
                         <div className="btn-container">
                             <a href="https://github.com/LeeTann/Covid-19" rel="noopener noreferrer" >
                                 <button className="btn">Github</button>
@@ -97,19 +101,20 @@ export default function Projects() {
                     <div className="card">   
                         <img src="images/expense-tracker.png" alt="card img" className="card-img" />
                         <h1>Expense Tracker</h1>
-                        <p className="card-details">An application that allows you to keep track of your expenses. 
-                        </p>
-                        <div className="card-info">
-                            <p>
-                                <span className="bold">Developed:</span> Solo Project
-                            </p>
+                        <div className="card-content">
+                          <p className="card-details">A full-stack application that utilizes the MERN stack to keep track of expenses. 
+                          </p>
+                          <div className="card-info">
+                              <p>
+                                  <span className="bold">Developed:</span> Solo Project
+                              </p>
+                          </div>
+                          <div className="card-info">
+                              <p>
+                                  <span className="bold">Tech:</span> React, Hooks, ContextAPI, Node, Express, MongoDB, HTML5, CSS, Heroku
+                              </p>
+                          </div>
                         </div>
-                        <div className="card-info">
-                            <p>
-                                <span className="bold">Tech:</span> React, Hooks, Chartjs, MaterialUI
-                            </p>
-                        </div>
-                        
                         <div className="btn-container">
                             <a href="https://github.com/LeeTann/Expense-Tracker-React-Node" rel="noopener noreferrer" >
                                 <button className="btn">Github</button>
@@ -126,25 +131,26 @@ export default function Projects() {
                      
                         <img src="images/socialape1.png" alt="card img" className="card-img" />
                         <h1>Social Ape</h1>
-                        <p className="card-details">Social Ape is an social media that connects all the social apes in the world so they chat about bananas and all 
-                            the things that make ape-ing around awesome.
-                        </p>
-                        <div className="card-info">
-                            <p>
-                                <span className="bold">Developed:</span> Solo Project
-                            </p>
+                        <div className="card-content">
+                          <p className="card-details">Social Ape is an social media that connects all the social apes in the world so they chat about bananas and all 
+                              the things that make ape-ing around awesome.
+                          </p>
+                          <div className="card-info">
+                              <p>
+                                  <span className="bold">Developed:</span> Solo Project
+                              </p>
+                          </div>
+                          <div className="card-info">
+                              <p>
+                                  <span className="bold">Tech:</span> React, Redux, Material-UI, Node, Express, Firebase
+                              </p>
+                          </div>
                         </div>
-                        <div className="card-info">
-                            <p>
-                                <span className="bold">Tech:</span> React, Redux, Material-UI, Node, Express, Firebase
-                            </p>
-                        </div>
-                        
                         <div className="btn-container">
                             <a href="https://github.com/LeeTann/socialApe-Frontend" rel="noopener noreferrer" >
                                 <button className="btn">Github</button>
                             </a>                  
-                            <button className="btn">View Live</button>
+                            <button className="btn">Incoming</button>
                         </div>
                     </div>
                 </Fade>
@@ -153,19 +159,21 @@ export default function Projects() {
                     <div className="card">
                         <img src="images/gameoflife1.png" alt="card img" className="card-img" />
                         <h1>Game of Life</h1>
-                        <p className="card-details">Game of Life is a cellular automaton developed by John Horton Conway. The game is a zero-player game meaning 
-                            that it's evolution is determined by it's initial state requiring no furture input.
-                        </p>
-                        <div className="card-info">
-                            <p>
-                                <span className="bold">Developed:</span> Solo Project
-                            </p>
+                        <div className="card-content">
+                          <p className="card-details">Game of Life is a cellular automaton developed by John Horton Conway. The game is a zero-player game meaning 
+                              that it's evolution is determined by it's initial state requiring no furture input.
+                          </p>
+                          <div className="card-info">
+                              <p>
+                                  <span className="bold">Developed:</span> Solo Project
+                              </p>
+                          </div>
+                          <div className="card-info">
+                              <p>
+                                  <span className="bold">Tech:</span> React, Hooks, CSS
+                              </p>
+                          </div>  
                         </div>
-                        <div className="card-info">
-                            <p>
-                                <span className="bold">Tech:</span> React, Hooks, CSS
-                            </p>
-                        </div>  
                         <div className="btn-container gameoflife-btn">
                             <a href="https://github.com/LeeTann/Game0fLife" target="_blank" rel="noopener noreferrer">
                                 <button className="btn">Github</button>
