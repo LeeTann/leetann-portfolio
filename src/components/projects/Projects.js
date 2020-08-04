@@ -9,10 +9,10 @@ export default function Projects() {
             <div className="cards-container">
                 <Fade left>
                     <div className="card">   
-                        <img src="images/notesapp1.png" alt="card img" className="card-img" />
-                        <h1>Scratch</h1>
+                        <img src="images/pencil1.png" alt="card img" className="card-img" />
+                        <h1>Pencil</h1>
                         <div className="card-content">
-                          <p className="card-details">Scratch is a full-stack serverless note taking app utilizing Amazon Web Services. 
+                          <p className="card-details">Pencil is a full-stack serverless note taking app utilizing Amazon Web Services. 
                             The application was built as a way to take notes while studying for the AWS Solutions Architect Exam.
                           </p>
                           <div className="card-info">
@@ -22,16 +22,16 @@ export default function Projects() {
                           </div>
                           <div className="card-info">
                               <p>
-                                  <span className="bold">Tech:</span> React, Node, AWS Amplify, S3, DynamoDB, Lambda, API Gateway, Cognito, Serverless Framework
+                                  <span className="bold">Tech:</span>AWS Amplify, S3, DynamoDB, Lambda, API Gateway, Cognito, CloudFormation, Serverless Framework, React, Node
                               </p>
                           </div>
                         </div>
                         
                         <div className="btn-container">
-                            <a href="https://github.com/LeeTann/serverless-stack-api" rel="noopener noreferrer" >
+                            <a href="https://github.com/LeeTann/Pencil" rel="noopener noreferrer" >
                                 <button className="btn">Github</button>
                             </a>
-                            <a href="https://master.d1i51n1hkibvnd.amplifyapp.com/" target="_blank" rel="noopener noreferrer">               
+                            <a href="https://master.d7kgw2wgzojnc.amplifyapp.com/" target="_blank" rel="noopener noreferrer">               
                               <button className="btn">View Live</button>
                             </a>
                         </div>
