@@ -18,13 +18,15 @@ export default function About() {
                     <Fade left duration="1200">
                         <div className="about-me">
                             <p>Hi my name is Lee. I'm a full-stack developer based in California. I enjoy building
-                                beautiful and functional apps with a focus on user experience and design. I love working with 
-                                modern technologies like ReactJS, NodeJS, Express, PostgreSQL and Firebase.
+                                beautiful and functional apps with a focus on user experience and design. I love learning and working with 
+                                modern technologies like ReactJS, NodeJS, Express, PostgreSQL and MongoDB. My current interest is learning and utilizing 
+                                cloud services like AWS. I recently recieved my AWS Cloud Practitioner Certificate and currently working on the AWS
+                                Solutions Architect Certificate.
                             </p>
                             <p>
-                                Being a software engineer is an amazing profession as it allows you to solve problems
-                                by writing code to making an impact. Writing code is a form of expression that allows you 
-                                to communicate with your machine and with fellow developers.
+                                Being a software engineer and working with tech in general is amazing as there are endless things to learn
+                                and drive into. I enjoy solving problems by writing code that can make an impact. 
+                                Writing code is a form of expression that allows you to communicate with your machine and with fellow developers.
                                 I believe in the Zen of Python - simple is better than complex. 
                             </p>
                             <p>   
