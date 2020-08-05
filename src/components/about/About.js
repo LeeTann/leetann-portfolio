@@ -17,11 +17,11 @@ export default function About() {
                 <div className="about-section">
                     <Fade left duration="1200">
                         <div className="about-me">
-                            <p>Hi my name is Lee. I'm a full-stack developer based in California. I enjoy building
-                                beautiful and functional apps with a focus on user experience and design. I love learning and working with 
-                                modern technologies like ReactJS, NodeJS, Express, PostgreSQL and MongoDB. My current interest is learning and utilizing 
-                                cloud services like AWS. I recently recieved my AWS Cloud Practitioner Certificate and currently working on the AWS
-                                Solutions Architect Certificate.
+                            <p>Hi my name is Lee. I'm a full-stack developer based in California. I love building
+                                beautiful and functional apps with cutting edge technologies like
+                                ReactJS, NodeJS, Express, PostgreSQL and MongoDB. My current interest are exploring and working with
+                                cloud services like AWS. I recently recieved my AWS Cloud Practitioner Certificate and currently
+                                studying for on my AWS Solutions Architect Certificate.
                             </p>
                             <p>
                                 Being a software engineer and working with tech in general is amazing as there are endless things to learn
