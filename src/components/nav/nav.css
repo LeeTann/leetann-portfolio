@@ -41,6 +41,9 @@ li {
     color: black;
     transition: ease-in-out .25s;
 }
+.nav-item a {
+  color: whitesmoke;
+}
 
 @media (max-width: 900px) {
     li {

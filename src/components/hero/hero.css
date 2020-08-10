@@ -38,30 +38,17 @@
 }
 
 .hero-heading {
-    font-size: 4rem;
+    font-size: 3rem;
     position: relative;
-    animation: hero;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards;
 }
-@keyframes hero {
-    0% {top: -400px}
-    100% {top: 0}
-}
+
 
 .hero-sub {
     font-size: 1.3rem;
-    margin: 1rem 0;
+    margin: 15px 0;
     width: 60%;
     position: relative;
-    animation: hero-sub;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
     color: var(--secondary-color);
-}
-@keyframes hero-sub {
-  0% {left: -1200px}
-  100% {left: 0}
 }
 
 h5 {
@@ -73,78 +60,14 @@ h5 {
 h5 span {
   opacity: 0;
   display: inline-block;
-  animation: animate 1s linear forwards;
   position: relative;
-}
-
-@keyframes animate {
-  0% {
-    opactiy: 0;
-    filter: blur(10px);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(2);
-    filter: blur(0px);
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-h5 span:nth-child(1) {
-  animation-delay: .5s
-}
-h5 span:nth-child(2) {
-  animation-delay: 1s;
-}
-h5 span:nth-child(3) {
-  animation-delay: 1.5s
-}
-h5 span:nth-child(4) {
-  animation-delay: 2s
-}
-h5 span:nth-child(5) {
-  animation-delay: 2.5s
-}
-h5 span:nth-child(6) {
-  animation-delay: 3s;
-}
-h5 span:nth-child(7) {
-  animation-delay: 3.5s;
-}
-h5 span:nth-child(8) {
-  animation-delay: 4s;
-}
-h5 span:nth-child(9) {
-  animation-delay: 4.5s
-}
-h5 span:nth-child(10) {
-  animation-delay: 5s;
-}
-h5 span:nth-child(11) {
-  animation-delay: 5.5s;
-}
-h5 span:nth-child(12) {
-  animation-delay: 6s;
 }
 
 .start-btn {
   position: absolute;
   bottom: 4rem;
-  animation: button 1s linear forwards;
-  animation-delay: 6.5s;
-  opacity: 0;
   cursor: pointer;
-}
-
-@keyframes button {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  font-size: 1.5rem;
 }
 
 .start-btn:hover {
@@ -153,6 +76,11 @@ h5 span:nth-child(12) {
 
 @media (max-width: 400px) {
     .hero-heading {
-        font-size: 2.75rem;
+      font-size: 2rem;
+    }
+
+    .hero-sub {
+      font-size: 1rem;
+      width: auto;
     }
 }
