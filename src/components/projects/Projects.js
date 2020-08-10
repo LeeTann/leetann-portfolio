@@ -7,7 +7,6 @@ export default function Projects() {
         <div className="projects">
             <h3>Projects</h3>
             <div className="cards-container">
-                <Fade left>
                     <div className="card">   
                         <img src="images/pencil1.png" alt="card img" className="card-img" />
                         <h1>Pencil</h1>
@@ -36,9 +35,7 @@ export default function Projects() {
                             </a>
                         </div>
                     </div>
-                </Fade>
 
-                <Fade top>
                     <div className="card">
                         <img src="images/inquiry.png" alt="card img" className="card-img" />
                         <h1>Inquiry</h1>
@@ -66,9 +63,7 @@ export default function Projects() {
                             </a>
                         </div>
                     </div>
-                </Fade>
 
-                <Fade right>
                     <div className="card">   
                         <img src="images/covid19.png" alt="card img" className="card-img" />
                         <h1>Covid-19 Tracker</h1>
@@ -95,9 +90,7 @@ export default function Projects() {
                             </a>
                         </div>
                     </div>
-                </Fade>
 
-                <Fade top>
                     <div className="card">   
                         <img src="images/expense-tracker.png" alt="card img" className="card-img" />
                         <h1>Expense Tracker</h1>
@@ -124,9 +117,7 @@ export default function Projects() {
                             </a>
                         </div>
                     </div>
-                </Fade>
 
-                <Fade right>
                     <div className="card">
                      
                         <img src="images/socialape1.png" alt="card img" className="card-img" />
@@ -153,9 +144,7 @@ export default function Projects() {
                             <button className="btn">Incoming</button>
                         </div>
                     </div>
-                </Fade>
 
-                <Fade left>
                     <div className="card">
                         <img src="images/gameoflife1.png" alt="card img" className="card-img" />
                         <h1>Game of Life</h1>
@@ -183,7 +172,6 @@ export default function Projects() {
                             </a>
                         </div>
                     </div>
-                </Fade>
             </div>
         </div>
     )
