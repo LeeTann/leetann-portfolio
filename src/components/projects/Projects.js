@@ -7,8 +7,10 @@ export default function Projects() {
         <div className="projects">
             <h3>Projects</h3>
             <div className="cards-container">
-                    <div className="card">   
+                    <div className="card">
+                        <a href="https://master.d7kgw2wgzojnc.amplifyapp.com/" target="_blank" rel="noopener noreferrer">
                         <img src="images/pencil1.png" alt="card img" className="card-img" />
+                        </a>   
                         <h1>Pencil</h1>
                         <div className="card-content">
                           <p className="card-details">Pencil is a full-stack serverless note taking app utilizing Amazon Web Services. 
@@ -37,7 +39,9 @@ export default function Projects() {
                     </div>
 
                     <div className="card">
-                        <img src="images/inquiry.png" alt="card img" className="card-img" />
+                        <a href="https://affectionate-almeida-c22cb1.netlify.com/" target="_blank" rel="noopener noreferrer">
+                          <img src="images/inquiry.png" alt="card img" className="card-img" />
+                        </a>
                         <h1>Inquiry</h1>
                         <div className="card-content">
                           <p className="card-details">Inquiry is an app that aims at easing the stress of finding and booking an independent contractor by
@@ -64,8 +68,10 @@ export default function Projects() {
                         </div>
                     </div>
 
-                    <div className="card">   
-                        <img src="images/covid19.png" alt="card img" className="card-img" />
+                    <div className="card">
+                        <a href="https://covid19-tracker-leetann.netlify.app/" target="_blank" rel="noopener noreferrer">       
+                          <img src="images/covid19.png" alt="card img" className="card-img" />
+                        </a>
                         <h1>Covid-19 Tracker</h1>
                         <div className="card-content">
                         <p className="card-details">An application that tracks real time data of Covid-19 around the world utilizing a third party api. 
@@ -92,7 +98,9 @@ export default function Projects() {
                     </div>
 
                     <div className="card">   
-                        <img src="images/expense-tracker.png" alt="card img" className="card-img" />
+                        <a href="https://expensetracker-mern.herokuapp.com/" target="_blank" rel="noopener noreferrer">  
+                          <img src="images/expense-tracker.png" alt="card img" className="card-img" />
+                        </a>
                         <h1>Expense Tracker</h1>
                         <div className="card-content">
                           <p className="card-details">A full-stack application that utilizes the MERN stack to keep track of expenses. 
@@ -146,7 +154,9 @@ export default function Projects() {
                     </div>
 
                     <div className="card">
-                        <img src="images/gameoflife1.png" alt="card img" className="card-img" />
+                        <a href="https://gameoflife-react-hooks.netlify.com" target="_blank" rel="noopener noreferrer">
+                          <img src="images/gameoflife1.png" alt="card img" className="card-img" />
+                        </a>
                         <h1>Game of Life</h1>
                         <div className="card-content">
                           <p className="card-details">Game of Life is a cellular automaton developed by John Horton Conway. The game is a zero-player game meaning 

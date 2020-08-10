@@ -9,7 +9,6 @@ import Hero from './components/hero/Hero';
 function App() {
   return (
     <div className="App">
-      <div className="loader hidden">loader...</div>
       <Nav />
       <Hero />
       <About />  
