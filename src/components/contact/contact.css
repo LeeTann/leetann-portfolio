@@ -58,6 +58,11 @@
     margin-top: -20px;
     margin-bottom: 2rem;
 }
+.fa-linkedin::before,
+.fa-github::before,
+.fa-twitter::before {
+  content: none;
+}
 
 @media (max-width: 400px) {
     .fa-github {
