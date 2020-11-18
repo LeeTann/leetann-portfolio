@@ -18,7 +18,7 @@ export default function Projects() {
               className='card-img'
             />
           </a>
-          <h1>Pencil</h1>
+          <h1>Beautiful Jewels</h1>
           <div className='card-content'>
             <p className='card-details'>
               Beautiful Jewels is a fully functional e-commerce site that sells
