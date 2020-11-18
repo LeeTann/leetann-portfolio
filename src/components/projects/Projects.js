@@ -22,9 +22,9 @@ export default function Projects() {
           <div className='card-content'>
             <p className='card-details'>
               Beautiful Jewels is a fully functional e-commerce site that sells
-              high quality and beautiful jewelries. Features inclued: shopping
-              cart with payment system, product reviews and ratings, restricted
-              admin screen to manage products and search functionality.
+              jewelry. Features include: shopping cart with payment system,
+              product reviews/ratings and a restricted admin screen to manage
+              products.
             </p>
             <div className='card-info'>
               <p>
