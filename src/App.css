@@ -13,10 +13,9 @@ body {
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 1.25;
   letter-spacing: 1.25px;
-
 }
 
 a {
@@ -24,7 +23,7 @@ a {
 }
 
 a:hover {
-  transition: ease-in-out .1s;
+  transition: ease-in-out 0.1s;
   cursor: pointer;
 }
 
@@ -58,7 +57,7 @@ img {
 .btn:hover {
   opacity: 0.9;
   background-color: var(--secondary-color);
-  transition: all .1s ease-in-out;
+  transition: all 0.1s ease-in-out;
   transform: scale(1.1);
 }
 
@@ -66,10 +65,11 @@ h3 {
   margin: 40px 0;
   display: flex;
   font-size: 3rem;
-  color: var(--secondary-color)
+  color: var(--secondary-color);
 }
 
-h3:before, h3:after {
+h3:before,
+h3:after {
   content: '';
   flex: 1;
   border-bottom: groove 3px var(--primary-color);
